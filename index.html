@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+        <title>My Weather</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="extra/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts -->
+    <link href="extra/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    <!-- Plugin for CSS -->
+    <link href="extra/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- My Custom CSS -->
+    <link href="css/mycss.css" rel="stylesheet">
+  </head>
+
+    
+  <body id="page-top"> 
+      <header class="masthead text-center text-white d-flex">
+        <div class="container-fluid cont">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h1 class="text-uppercase">
+                        <strong>Ireland Weather Forecast</strong>
+                    </h1>
+                    <hr>
+                </div>   
+                <div class="col-lg-12 mx-auto">
+                    <div class="sbar mat-item">
+                        <p class="  mb-5">Select City Name</p>
+                        <input class="text-line hide" id="city_name" name="city_name" type="text" placeholder="Enter Place">
+                        <div class="row">
+                            <div class="col-lg-2"  style="padding-right: 530px;"></div>
+                                <div class=" col-lg-3">
+                                    <select  class="text-line form-control"  id="city-dropdown" name="city_name"></select><br>    
+                                    <a class="btn btn-primary btn-xl js-scroll-trigger alignc" id="btn_search">SEARCH</a>
+                                </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+          </div>
+        </header>
+      
+        <div class="container">
+            <div class="row pad-40">
+                <div id="first" class="col-sm-12" style="color: white;" > </div>    
+		    </div>
+            <div id="demo" class="carousel slide" data-ride="carousel" data-interval="false"> </div>
+                <div id="charts-div" class=" sbar ">
+                    <div id="chartsection"></div>
+                        <div id="charts" class="row " >
+                            <div id="line-cont" class="col-sm-12 ">
+                                <canvas id="line-Chart" class="chcanvas material" ></canvas>
+                            </div>    
+                            <div class="row">
+                                <div id="bar-cont" class="col-md-6 mtop">
+                                    <canvas id="bar-Chart" class="chcanvas2 material " ></canvas>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </body>
+</html>  
+
+    <!-- Bootstrap for JS -->
+    <script src="extra/jquery/jquery.min.js"></script>
+    <script src="extra/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin for JS -->
+    <script src="extra/jquery-easing/jquery.easing.min.js"></script>
+    <script src="extra/scrollreveal/scrollreveal.min.js"></script>
+    <script src="extra/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="extra/Chart.bundle.js"></script>
+
+    <!-- My JS -->
+    <script src="js/main.js"></script>

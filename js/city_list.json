@@ -1,0 +1,47 @@
+[
+  {
+    "id": 7778677,
+    "name": "Dublin City",
+    "country": "IE",
+    "coord": {
+      "lon": -6.24922,
+      "lat": 53.355122
+    }
+  },
+  {
+    "id": 2964574,
+    "name": "Dublin",
+    "country": "IE",
+    "coord": {
+      "lon": -6.26719,
+      "lat": 53.34399
+    }
+  },
+  {
+    "id": 2962941,
+    "name": "County Limerick",
+    "country": "IE",
+    "coord": {
+      "lon": -8.75,
+      "lat": 52.5
+    }
+  },
+  {
+    "id": 2962840,
+    "name": "Longford",
+    "country": "IE",
+    "coord": {
+      "lon": -7.8,
+      "lat": 53.73333
+    }
+  },
+  {
+    "id": 3313472,
+    "name": "Athlone",
+    "country": "IE",
+    "coord": {
+      "lon": -7.93722,
+      "lat": 53.422779
+    }
+  }
+]
